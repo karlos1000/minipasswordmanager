@@ -1,0 +1,60 @@
+html, body {
+    /* height: 100%;
+    margin: 0px; */
+    /* background-color: #282c34; */
+    background-color: #282c34;
+}
+.App{
+    /* background-image: radial-gradient(circle at 72.96% 99.24%, #91f4ff 0, #65dcff 25%, #0cc1ed 50%, #00a6da 75%, #008fcb 100%); */
+    /* background-color: #282c34; */
+    background-color: #282c34;
+    color: #fff;
+    height: 100%;
+}
+.table{
+    color: #fff !important;
+}
+.list-group-item{
+    color: #fff !important;
+    background-color: #1e293b !important;
+}
+/* .list-group{
+    padding-left: -1px !important;
+} */
+.border_top{
+    border-top: 1px solid rgb(54 58 64) !important;
+}
+
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1e293b;
+    width: 100%;
+    height: 100%;
+    margin-top: 2em;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+}
+.titleAddPassword{
+    border-bottom: 1px solid rgb(54 58 64);
+    margin-bottom: 2em;
+}
+.mainTitleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.addPasswordContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.bold{
+    font-weight: bold;
+}
